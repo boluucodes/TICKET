@@ -73,4 +73,3 @@ const AboutProject = () => {
 
 export default AboutProject;
 
-// this project toughh

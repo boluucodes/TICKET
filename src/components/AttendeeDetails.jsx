@@ -147,7 +147,7 @@ const AttendeeDetails = () => {
               <input
                 type="email"
                 className="w-full bg-transparent outline-none text-white"
-                placeholder="sammiemarvie03@gmail.com"
+                placeholder="olatubosundiyaolu@gmail.com"
                 value={email}
                 onChange={(e) => {
                   setEmail(e.target.value);
