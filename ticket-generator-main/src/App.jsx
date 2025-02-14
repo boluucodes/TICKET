@@ -12,7 +12,7 @@ function App() {
     <Navbar />
       <Routes>
         <Route path='/' element={<TicketSelection />}/>
-        {/* prevent users from going to these pages if they haven't filled the form */}
+        {/*this prevents users from going to these pages if they haven't filled the form */}
         <Route path='/details' element={<AttendeeDetails />}/>
         <Route path='/printOut' element={<TicketReady />}/>
         <Route path='/about-project' element={<AboutProject />}/>
